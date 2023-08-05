@@ -298,7 +298,7 @@ public class Deque<T> implements Iterable<T> {
 
 			/**
 			 * Override next method Used to iterate over the next object of the iterator
-			 * Throws an error if the iteration ends or the iterator is invalid
+			 * Throws an error if the iteration go to end or the iterator is invalid
 			 * 
 			 * @return An element in the current pointer
 			 */
@@ -340,7 +340,7 @@ public class Deque<T> implements Iterable<T> {
 
 			/**
 			 * Override next method Used to iterate over the previous object of the iterator
-			 * Throws an error if the iteration ends or the iterator is invalid
+			 * Throws an error if the iteration go to begin or the iterator is invalid
 			 * 
 			 * @return An element in the current pointer
 			 */
